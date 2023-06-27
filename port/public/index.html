@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-Compatible" content="=IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <title>porfolio</title>
+        <script src="https://kit.fontawesome.com/fa5990245e.js" crossorigin="anonymous"></script>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/name.png" alt="name_logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+            <div class="header_text">
+                <h1>Hi, I'm<span>Hari</span> </h1>
+                <p>App, website, Ui/Ux developer,<br> programmer.</p>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------about section -------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about_col_1">
+                    <img src="images/profile.png">
+                    
+                </div>
+
+                <div class="about_col_2">
+                    <h1 class="sub_title">About me</h1>
+                    <p>llllllllllll llllllllllll k k khhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+                        fffffffffffffffffffffffffffffff yyyyyyyyyyyy yyyyyyyyyyy rrrrrrrrrrrrrrrrrrrrrrr eeeeeeeeeeeeeeeeee oooooooooooooooooooo
+                    </p>
+                    <div class="tab_title">
+                        <p class="tab_links active_link" onclick="open_tab('skills')">skills</p>
+                        <p class="tab_links" onclick="open_tab('experience')">project experience</p>
+                        <p class="tab_links" onclick="open_tab('education')">education</p>
+                    </div>
+                    <div class="tab_contents active_tab" id="skills">
+                        <ul>
+                            <li><span>web developer</span>
+                                <br>Web app developer<br>
+                                <!-- <br>Html/Css
+                                <br>php
+                                <br>Firebase
+                                <br>My sql -->
+                            </li>
+                            <li><span>app developer</span>
+                                <br>android/ios app developer
+                                <br>android studio(java)<br>
+                                <!-- <br>C/C++
+                                <br>Python
+                                <br>java
+                                <br>Html/Css
+                                <br>php -->
+                            </li>
+                            <li><span>Languages</span>
+                                <br>C/C++
+                                <br>Python
+                                <br>java
+                                <br>Html/Css
+                                <br>php<br>
+                            </li>  
+                        </ul>
+                    </div>
+
+                    <div class="tab_contents" id="experience">
+                        <ul>
+                            <li><span>pro ex.</span>
+                                <br>nottu 1<br>
+                                <!-- <br>Html/Css
+                                <br>php
+                                <br>Firebase
+                                <br>My sql -->
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab_contents" id="education">
+                        <ul>
+                            <li><span>education.</span>
+                                <br>nottu 2<br>
+                                <!-- <br>Html/Css
+                                <br>php
+                                <br>Firebase
+                                <br>My sql -->
+                            </li>
+                        </ul> 
+                    </div>
+
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------------------services -------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub_title">My services</h1>
+            <div class="services_list">
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis </p>
+                        <a href="a">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis </p>
+                        <a href="a">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-alt"></i>
+                    <h2>ui/ux design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis </p>
+                        <a href="a">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------POrtfolio------------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub_title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/smart_glasess_1.png">
+                    <div class="layer">
+                        <h3>Li-Fi</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure ea modi et, inventore aperiam fuga voluptatum earum sint eligendi est ab esse doloremque harum repellendus saepe ducimus explicabo, libero hic.</p>
+                    <a href="link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="images/smart_glasess_1.png">
+                    <div class="layer">
+                        <h3>Smart-Glasess</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure ea modi et, inventore aperiam fuga voluptatum earum sint eligendi est ab esse doloremque harum repellendus saepe ducimus explicabo, libero hic.</p>
+                    <a href="link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <!-- <img src="images/Bus_proj_gif.gif"> -->
+                    
+                    <video src="images/Bus_proj_vid.mp4" loop onmouseover="this.play()" onmouseout="this.pause()"></video>
+                    <div class="layer">
+                        <h3>Bus tracking application</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure ea modi et, inventore aperiam fuga voluptatum earum sint eligendi est ab esse doloremque harum repellendus saepe ducimus explicabo, libero hic.</p>
+                    <a href="link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+
+                </div>
+            </div>
+            <a href="see more" class="button">See mode</a>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------contact------------------------------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact_left">
+                    <h1 class="sub_title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> hariharanvec@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9840214279</p>
+                    <div class="socio_icons">
+                        <a href="https://www.instagram.com/dare_d_e_v_i_l_._/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Hariharan200930"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/hariharan-b-61aba321b/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/HARIHARAN B_RESUME.pdf" download class="button button2">Download CV</a>
+                </div>
+                <div class="contact_right">
+                    <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="button button2">submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">bye bye! <i class="fa-duotone fa-hand-wave"></i> </div>
+    </div>
+
+    <script>
+        var  tablinks = document.getElementsByClassName("tab_links");
+        var  tabcontents = document.getElementsByClassName("tab_contents");
+        
+        function open_tab(tabtype){
+            for (i of tablinks){
+                i.classList.remove("active_link");
+            }
+            for (j of tabcontents){
+                j.classList.remove("active_tab");
+            }
+            event.currentTarget.classList.add("active_link");
+            document.getElementById(tabtype).classList.add("active_tab");
+        }
+    </script>
+
+
+    </body>
+</html>
